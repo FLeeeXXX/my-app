@@ -1,0 +1,22 @@
+.menu {
+    /* придаем диву некое имя с помощью которого можем им управлять в гридах */
+    grid-area: m;
+    background-color: #7C45D6;
+}
+
+.menu_text{
+    margin-top: 45px;
+    margin-left: 30%;
+}
+
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Roboto" , sans-serif;
+    color: white;
+}
+
+.text:hover{
+    color: #FFE200;
+    cursor: pointer;
+}

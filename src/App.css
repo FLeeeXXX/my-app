@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_menu {
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-areas:
+    "h h"
+    "m c";
+  /* сделали расположение на сайте, указали как будут располагать дивы */
+  grid-template-rows: 60px 1fr;
+  /* означает что будет 2 строки , 1 - 60 пикс, 2 - 1 фракция */
+  grid-template-columns: 2fr 10fr;
+  /* означает что будет 2 колонки, 1 - 2 фракции, 2 - 10 фракций */
+  grid-gap: 10px;
+}
